@@ -10,9 +10,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+const name = "Christian";
+const year = new Date().getFullYear();
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<div>
-		<p>Created by Christian</p> <p>Copyright 2023</p>
+		<p>Created by {name}</p>
+		<p>Copyright {year}</p>
 	</div>
 );
