@@ -6,3 +6,13 @@
 //E.g.
 //Created by Angela Yu.
 //Copyright 2019.
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+	<div>
+		<p>Created by Christian</p> <p>Copyright 2023</p>
+	</div>
+);
